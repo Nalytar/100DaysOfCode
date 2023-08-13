@@ -22,7 +22,7 @@ print("----------------------------------------------")
 # input() function in len() function in print() function, printing userinput
 print("Exercise 3")
 
-print(len(str(input("What is your name?"))))
+print(len(str(input("What is your name? "))))
 print("----------------------------------------------")
 
 

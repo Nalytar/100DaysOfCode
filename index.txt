@@ -1,0 +1,10 @@
+Start: 13.08.2023
+
+Day 001:
+    - variables, basic input / output (user-input, print())
+
+Day 002:
+    - f String, typecasting for calculation, arithmetic operators, PEMDAS
+
+Day 003:
+    -
