@@ -19,6 +19,8 @@
 
 # Exercise 1
 # Insert a two-digit number and print the cross sum
+print("Exercise 1")
+
 two_digit_number = input("Type a two digit number: ")
 
 number1 = int(two_digit_number[0])
@@ -29,6 +31,7 @@ print(number1 + number2)
 
 print("----------------------------------------------")
 
+print("Exercise 2")
 # Exercise 2
 # BMI-Calculator with Integer output
 
@@ -40,6 +43,7 @@ print(int(bmi))
 
 print("----------------------------------------------")
 
+print("Exercise 3")
 # Exercise 3
 # Life week calculator until 90 years old
 
@@ -49,3 +53,4 @@ weeks = (90 - age) * 52
 months = (90 - age) * 12
 
 print(f"Your have {days} days, {weeks} weeks, and {months} months left.")
+print("----------------------------------------------")
