@@ -1,3 +1,5 @@
+https://www.udemy.com/course/100-days-of-code/
+
 Start: 13.08.2023
 
 Day 001:
@@ -7,4 +9,7 @@ Day 002:
     - f String, typecasting for calculation, arithmetic operators, PEMDAS
 
 Day 003:
+    - if-else, nested if-else, modulo operator, logical operators
+
+Day 004:
     -
