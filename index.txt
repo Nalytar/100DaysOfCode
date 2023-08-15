@@ -12,4 +12,7 @@ Day 003:
     - if-else, nested if-else, modulo operator, logical operators
 
 Day 004:
+    - list and indexing (simple and nested lists), random module
+
+Day 005:
     -
