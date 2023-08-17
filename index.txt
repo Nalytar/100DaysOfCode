@@ -18,4 +18,8 @@ Day 005:
     - for-Loops with lists, for-loops with range() function, practice if and modulo in loop
 
 Day 006:
+    - https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json
+    - while loop, function declaration, Hurdle 1-4 and Maze of reeborg.org (Link above)d
+
+Day 007:
     -
