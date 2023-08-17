@@ -15,4 +15,7 @@ Day 004:
     - list and indexing (simple and nested lists), random module
 
 Day 005:
+    - for-Loops with lists, for-loops with range() function, practice if and modulo in loop
+
+Day 006:
     -
