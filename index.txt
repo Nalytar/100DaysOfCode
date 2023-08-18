@@ -22,4 +22,7 @@ Day 006:
     - while loop, function declaration, Hurdle 1-4 and Maze of reeborg.org (Link above)d
 
 Day 007:
+    - Hangman-Game, Step-by-step integration, outsourcing code into module to import
+
+Day 008:
     -
