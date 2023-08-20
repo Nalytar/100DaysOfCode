@@ -25,4 +25,7 @@ Day 007:
     - Hangman-Game, Step-by-step integration, outsourcing code into module to import
 
 Day 008:
+    - Caesar-Cipher, functions with inputs/parameter, import from module, debugging own code
+
+Day 009:
     -
