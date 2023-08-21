@@ -28,4 +28,8 @@ Day 008:
     - Caesar-Cipher, functions with inputs/parameter, import from module, debugging own code
 
 Day 009:
+    - Dictionaries and Nested lists and combinations of Dictionary and List
+
+Day 010:
     -
+
