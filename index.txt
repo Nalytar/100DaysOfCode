@@ -31,5 +31,7 @@ Day 009:
     - Dictionaries and Nested lists and combinations of Dictionary and List
 
 Day 010:
-    -
+    - Function with outputs, multiple return statements, Python Docstrings, Simple Calculator without Error Handling
 
+Day 011:
+    -
