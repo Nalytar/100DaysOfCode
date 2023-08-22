@@ -1,0 +1,31 @@
+# Blackjack requirements
+
+# Add your card sum as close as you can to 21
+# if you get over 21 you immediately lose ("bust")
+# Goal is to have a higher hand than the dealer but not higher than 21 ("bust")
+
+# 2-10 counts as their values
+# Jack, Queen, King = 10
+# Ace = 1 or 11
+
+# Dealer's second hand is concealed
+
+# You might ask for another card
+
+# dealer = 20, and we = 20, its draw
+# if dealers hand < 17 they must take another card
+# if we hit 21 with 2 cards we win
+
+# -----------------------------------------------------------
+
+# Everyone gets a face-up card
+# Everyone gets another face-up card, besides the dealer his card is face-down
+# You may ask for another card of the deck ("hit"), there is no limit to how many cards you can ask for
+# if your score is over 21 you lose ("bust")
+# if you don't want any more cards u ("stay")
+# once all stay the dealer reveals his hand
+    if it's less than 17 they must take another card
+    if it's 17 or higher they must stay
+    if it's over 21 they ("bust")
+# if the dealer doesn't bust only the player with a higher hand than the dealer wins
+# restart
