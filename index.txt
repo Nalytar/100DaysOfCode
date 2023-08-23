@@ -37,4 +37,7 @@ Day 011:
     - Creating a blackjack-game with learned and researched elements, did some debugging of small mistakes
 
 Day 012:
+    - Number guessing game from scratch with learned elements. No Hints were available just an example program
+
+Day 013:
     -

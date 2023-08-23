@@ -1,0 +1,8 @@
+# print logo, welcome message, choice for mode
+    easy = 10 tries
+    medium = 7 tries
+    hard = 5 tries
+# print remaining attempts
+# get input
+# print if to low or to high
+# repeat until remaining attempts = 0 or hit
