@@ -40,4 +40,7 @@ Day 012:
     - Number guessing game from scratch with learned elements. No Hints were available just an example program
 
 Day 013:
+    - Debugging some wrong code exercises (indentation error, = and ==, logical operator)
+
+Day 014:
     -
