@@ -46,4 +46,7 @@ Day 014:
     - Higher Lower Game, checks follower_count against each other, counts score, checks user-input
 
 Day 015:
+    - Looking into some PyCharm functions, coding a Coffee-Machine-Program
+
+Day 016:
     -
