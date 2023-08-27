@@ -49,4 +49,7 @@ Day 015:
     - Looking into some PyCharm functions, coding a Coffee-Machine-Program
 
 Day 016:
+    - Object-Oriented Programing, call attributes, and methods, Coffee-Machine-Program in oop with given modules
+
+Day 017:
     -
