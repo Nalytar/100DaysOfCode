@@ -52,4 +52,10 @@ Day 016:
     - Object-Oriented Programing, call attributes, and methods, Coffee-Machine-Program in oop with given modules
 
 Day 017:
+    - Creating Custom classes, Quiz Game where only quiz_game.py needed to be changed for complete new question pool"
+
+Day 018:
+    - Learned about tuples (immutable type), some turtle module drawings and installing of a package for color-picking
+
+Day 019:
     -
