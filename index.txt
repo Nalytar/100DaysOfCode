@@ -58,4 +58,7 @@ Day 018:
     - Learned about tuples (immutable type), some turtle module drawings and installing of a package for color-picking
 
 Day 019:
+    - Creating a turtle racing game with turtle module, learn about high-order-function, learn to use documentation
+
+Day 020:
     -
