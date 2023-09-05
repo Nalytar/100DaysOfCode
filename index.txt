@@ -61,4 +61,4 @@ Day 019:
     - Creating a turtle racing game with turtle module, learn about high-order-function, learn to use documentation
 
 Day 020:
-    -
+    - Creating the first part of a snake game with turtle module using object-oriented concepts
