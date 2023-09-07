@@ -62,3 +62,9 @@ Day 019:
 
 Day 020:
     - Creating the first part of a snake game with turtle module using object-oriented concepts
+
+Day 021:
+    - Finished the snake game, learned about list slicing in Python
+
+Day 022:
+    -
