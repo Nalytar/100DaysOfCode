@@ -71,4 +71,7 @@ Day 022:
     - not perfect, already spotted some bugs but overall nice to understand some practices
 
 Day 023:
+    - Creating a Turtle crossing road game on difficulty expert (only the gameplay and class names are given)
+
+Day 024:
     -
