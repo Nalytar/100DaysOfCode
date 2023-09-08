@@ -67,4 +67,8 @@ Day 021:
     - Finished the snake game, learned about list slicing in Python
 
 Day 022:
+    - Creating Pong with similar logic like snake game and oop concepts and using more constants for settings
+    - not perfect, already spotted some bugs but overall nice to understand some practices
+
+Day 023:
     -
