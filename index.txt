@@ -74,4 +74,8 @@ Day 023:
     - Creating a Turtle crossing road game on difficulty expert (only the gameplay and class names are given)
 
 Day 024:
+    - Reading and writing a file, added persistent high score to snake game (Day_024/snake_game)
+    - created an automated writing for birthday letters, Repeated absolute and relative path
+
+Day 025:
     -
