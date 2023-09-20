@@ -78,4 +78,7 @@ Day 024:
     - created an automated writing for birthday letters, Repeated absolute and relative path
 
 Day 025:
+    - Created U.S. State guessing game with turtle and pandas module, reading and writing csv data
+
+Day 026:
     -
