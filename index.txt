@@ -81,4 +81,7 @@ Day 025:
     - Created U.S. State guessing game with turtle and pandas module, reading and writing csv data
 
 Day 026:
+    - List and Dict comprehension, getting data from csv and comprehend to list/dict
+
+Day 027:
     -
