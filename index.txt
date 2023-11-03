@@ -84,4 +84,7 @@ Day 026:
     - List and Dict comprehension, getting data from csv and comprehend to list/dict
 
 Day 027:
+    - Created a GUI application with tkinter module (miles to km converted)
+
+Day 028:
     -
