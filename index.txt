@@ -87,4 +87,7 @@ Day 027:
     - Created a GUI application with tkinter module (miles to km converted)
 
 Day 028:
+    - Created a Pomodoro GUI Application (Worktimer)
+
+Day 029:
     -
