@@ -4,6 +4,7 @@ from tkinter import messagebox
 import random
 import string
 import pyperclip
+import json
 
 BACKGROUND = "white"
 
@@ -47,21 +48,60 @@ def validate(service, user, pw):
 
 
 def save():
-	service = serviceInput.get()
+	service = serviceInput.get().lower()
 	user = userInput.get()
 	pw = pwInput.get()
-	combi = ("-------------------------------------------------------------------------\n\n" +
-			 "-- " + service + " --\nUsername/E-Mail: " + user + "\nPassword: " + pw + "\n\n")
+	new_data = {service: {
+		"email/user": user,
+		"password": pw,
+	}}
 
 	if not validate(service, user, pw):
 		messagebox.showerror("ERROR", "There are empty inputs!")
 		return
 
-	if messagebox.askokcancel(service, f"Your inputs:\nEmail/User: {user}\nPassword: {pw}\nOk to safe?"):
-		with open("manager.txt", "a") as file:
-			file.write(combi)
+	try:
+		with open("manager.json", "r") as file:
+			# Reading old data
+			data = json.load(file)
+
+	except (FileNotFoundError, json.JSONDecodeError):
+		data = new_data
+
+	else:
+		# Updateing old data with new one
+		if service in data:
+			if messagebox.askokcancel("Override?", f"Do you want to override the entry for {service.capitalize()}"):
+				data.update(new_data)
+			else:
+				return
+		else:
+			data.update(new_data)
+
+	finally:
+		with open("manager.json", "w") as file:
+			# Saving updates data
+			json.dump(data, file, indent=4)
+
 			serviceInput.delete(0, tk.END)
 			pwInput.delete(0, tk.END)
+
+
+def searchData():
+	service = serviceInput.get().lower()
+	try:
+		with open("manager.json", "r") as file:
+			data = json.load(file)
+			try:
+				user = data[service]['email/user']
+				password = data[service]['password']
+
+				messagebox.showinfo(f"{service.capitalize()}", f"E-Mail/User: {user}\nPassword: {password}")
+			except KeyError:
+				messagebox.showerror("Error", f"There is no entry for {service.capitalize()}.")
+
+	except FileNotFoundError:
+		messagebox.showerror(f"No File to search for {service.capitalize()} exists.")
 
 
 window = tk.Tk()
@@ -77,8 +117,12 @@ serviceLabel = tk.Label()
 serviceLabel.config(text="Website:", background=BACKGROUND)
 serviceLabel.grid(column=0, row=1)
 
-serviceInput = tk.Entry(width=52)
-serviceInput.grid(column=1, row=1, columnspan=2)
+searchButton = tk.Button()
+searchButton.config(text="Search", background=BACKGROUND, width=14, command=searchData)
+searchButton.grid(column=2, row=1)
+
+serviceInput = tk.Entry(width=33)
+serviceInput.grid(column=1, row=1)
 serviceInput.focus()
 
 userLabel = tk.Label()
@@ -101,7 +145,7 @@ genButton.config(text="Generate Password", background=BACKGROUND, command=genera
 genButton.grid(column=2, row=3)
 
 saveButton = tk.Button()
-saveButton.config(text="Add", background=BACKGROUND, width=43, command=save)
+saveButton.config(text="Add", background=BACKGROUND, width=44, command=save)
 saveButton.grid(column=1, row=4, columnspan=2)
 
 window.mainloop()

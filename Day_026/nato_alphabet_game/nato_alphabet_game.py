@@ -8,6 +8,18 @@ code = [code for code in alphabet["code"].values()]
 code_letters_dict = {letters[n]: code[n] for n in range(0, len(letters))}
 # print(code_letters_dict)
 
-word = input("Enter a word: ")
-word_code = [code_letters_dict[letter] for letter in word.upper()]
-print(word_code)
+
+# Added @day 30
+def enterWord():
+	word_code = ""
+	try:
+		word = input("Enter a word: ")
+		word_code = [code_letters_dict[letter] for letter in word.upper()]
+	except KeyError:
+		print("Sorry, only letters in the alphabet please.")
+		word_code = enterWord()
+	finally:
+		return word_code
+
+
+print(enterWord())

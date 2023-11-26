@@ -90,4 +90,10 @@ Day 028:
     - Created a Pomodoro GUI Application (Worktimer)
 
 Day 029:
+    - Created a Password Manager with GUI interfaces
+
+Day 030:
+    - Added Exception Handling to Day_026 nato_alphabet_game and Day_029 Password Manager, added some better UX
+
+Day 031:
     -
