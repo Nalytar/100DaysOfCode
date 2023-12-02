@@ -96,4 +96,7 @@ Day 030:
     - Added Exception Handling to Day_026 nato_alphabet_game and Day_029 Password Manager, added some better UX
 
 Day 031:
+    - Created a Flash Card App, Progress of already learned words will be safed into new File
+
+Day 032:
     -
