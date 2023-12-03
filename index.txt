@@ -99,4 +99,7 @@ Day 031:
     - Created a Flash Card App, Progress of already learned words will be safed into new File
 
 Day 032:
+    - Send Email from Python, Notice the ! Important ! comment to use day032.py
+
+Day 033:
     -
