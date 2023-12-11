@@ -102,4 +102,8 @@ Day 032:
     - Send Email from Python, Notice the ! Important ! comment to use day032.py
 
 Day 033:
+    - Using the 'requests' module to get data from api's
+    - build a programm that contacts me when the ISS-Satellite is close and its dark outside
+
+Day 034:
     -
