@@ -109,4 +109,7 @@ Day 034:
     - Building a Quiz App with TKinter and Open Trivia DataBase
 
 Day 035:
-    - 
+    - API Keys, Authentication, Environment Variables and Sending SMS (Twilio)
+
+Day 036:
+    -
