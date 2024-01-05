@@ -112,4 +112,7 @@ Day 035:
     - API Keys, Authentication, Environment Variables and Sending SMS (Twilio)
 
 Day 036:
+    - API Keys Authentication, Parameter, Selection, Stock Changes with News
+
+Day 037:
     -
