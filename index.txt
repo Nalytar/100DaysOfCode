@@ -115,4 +115,7 @@ Day 036:
     - API Keys Authentication, Parameter, Selection, Stock Changes with News
 
 Day 037:
+    - Create a User and create/update a graph and data of that graph for pixela
+
+Day 038:
     -

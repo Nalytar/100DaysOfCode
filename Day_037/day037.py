@@ -42,6 +42,6 @@ with open("data.json", "r") as data:
 # print(response.text)
 
 # Delete a Pixel
-response = requests.delete(url=pixela_endpoint_update,
-                           headers=user_params["headers"])
-print(response.text)
+# response = requests.delete(url=pixela_endpoint_update,
+#                            headers=user_params["headers"])
+# print(response.text)
