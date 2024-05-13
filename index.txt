@@ -115,4 +115,10 @@ Day 036:
     - API Keys Authentication, Parameter, Selection, Stock Changes with News
 
 Day 037:
+    - Create a User and create/update a graph and data of that graph for pixela
+
+Day 038:
+    - API Calls for nutritionix and sheety to get data and insert data to google sheet
+
+Day 039:
     -
