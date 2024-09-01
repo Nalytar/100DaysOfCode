@@ -120,5 +120,15 @@ Day 037:
 Day 038:
     - API Calls for nutritionix and sheety to get data and insert data to google sheet
 
-Day 039:
-    -
+Day 039 - 040:
+    - Skipped, maybe will be adressed later
+
+Day 041 - 044:
+    - Basics of HTML and CSS
+
+Day 045:
+    - Using BeautifulSoup for Webscraping, extracting data from static sample site and live open data websites
+    - Created a list for 100 Movies to watch from scraped data
+
+Day 046:
+    - 
